@@ -1,0 +1,2 @@
+# helm repo add knative-operator https://knative.github.io/operator
+# helm upgrade --install knative-operator --create-namespace --namespace knative-operator knative-operator/knative-operator -v values.yaml
